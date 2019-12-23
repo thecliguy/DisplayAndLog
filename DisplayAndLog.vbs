@@ -81,6 +81,3 @@ Sub DisplayAndLog(s_TextToWrite, b_DisplayText, s_LogFile, b_DisplayDateTime)
         Set objTextFile = Nothing
     End If
 End Sub
-
-' s_TextToWrite, b_DisplayText, s_LogFile, b_DisplayDateTime
-DisplayAndLog "Hello blahh", True, "C:\bitbucket\LogFile.txt", False
