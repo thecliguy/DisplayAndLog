@@ -59,8 +59,8 @@ Sub DisplayAndLog(s_TextToWrite, b_DisplayText, s_LogFile, b_DisplayDateTime)
     ' (using the Right function) if the value already consists of two digits.
     strDateIso8601 = "[" & DatePart("yyyy",dtsNow) _
                      & "-" & Right("0" & DatePart("m",dtsNow), 2) _
-                     & "-" & Right("0" & DatePart("d",dtsNow), 2) & " " _
-                     & Right("0" & DatePart("h",dtsNow), 2) _
+                     & "-" & Right("0" & DatePart("d",dtsNow), 2) _
+                     & " " & Right("0" & DatePart("h",dtsNow), 2) _
                      & ":" & Right("0" & DatePart("n",dtsNow), 2) _
                      & ":" & Right("0" & DatePart("s",dtsNow), 2) & "]"
     
