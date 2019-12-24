@@ -2,7 +2,7 @@ Option Explicit
 
 Sub DisplayAndLog(s_TextToWrite, b_DisplayText, s_LogFile, b_DisplayDateTime)
     '***************************************************************************
-    ' SCRIPT DETAILS
+    ' DETAILS
     '   Copyright (C) 2019
     '   Adam Russell <adam[at]thecliguy[dot]co[dot]uk> 
     '   https://www.thecliguy.co.uk
